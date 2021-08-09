@@ -1,0 +1,42 @@
+.TopNav-Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a8a8a8;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
+}
+
+.TopNav-Menu-Item {
+    float: left;
+}
+
+#nav2pg {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav2pg:hover {
+    background-color: white;
+}
+
+#ActivePage {
+    display: block;
+    background-color: #9900cc;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#ActivePage:hover {
+    background-color: white;
+    color: black;
+}
+
